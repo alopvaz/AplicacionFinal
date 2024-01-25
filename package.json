@@ -1,0 +1,31 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server/index.js --ignore frontend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ant-design/icons": "^5.2.6",
+    "axios": "^1.6.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "http": "^0.0.1-security",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "react-bootstrap": "^2.10.0",
+    "react-highlight-words": "^0.20.0",
+    "react-hook-form": "^7.49.3",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
